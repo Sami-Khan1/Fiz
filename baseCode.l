@@ -11,8 +11,8 @@ unary "++"|"--"
 
 %%
 
-"printf"                    { return PRINTFF; }
-"scanf"                     { return SCANFF; }
+"print"                    { return PRINTFF; }
+"scan"                     { return SCANFF; }
 "int"                       { return INT; }
 "float"                     { return FLOAT; }
 "char"                      { return CHAR; }
@@ -34,8 +34,8 @@ unary "++"|"--"
 "!="                        { return NE; }
 ">"	                        { return GT; }
 "<"	                        { return LT; }
-"&&"	                    { return AND; }
-"||"	                    { return OR; }
+"and"	                    { return AND; }
+"or"	                    { return OR; }
 "+"                         { return ADD; }
 "-"                         { return SUBTRACT; }
 "/"                         { return DIVIDE; }
@@ -53,7 +53,6 @@ unary "++"|"--"
 "integral"                  { return INTEG;}
 "matrix"                    { return MATRIX;}
 "vector"                    { return VECTOR;}
-
 
 
 %%
