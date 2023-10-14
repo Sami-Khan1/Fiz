@@ -52,7 +52,7 @@ unary "++"|"--"
 "derivative"                { return DERIV;}
 "integral"                  { return INTEG;}
 "matrix"                    { return MATRIX;}
-"vector"                    { return VECTROR;}
+"vector"                    { return VECTOR;}
 
 
 
