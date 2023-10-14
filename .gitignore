@@ -1,0 +1,53 @@
+# Compiled binaries
+/bin/
+/build/
+/dist/
+*.exe
+*.out
+*.o
+*.so
+*.dll
+*.dylib
+
+# Intermediate files
+*.obj
+*.log
+*.suo
+*.sln.cache
+*.sln.docstates
+*.sln.ide/
+
+# Editor-specific files
+*.sublime-*
+*.swp
+*.swo
+*.idea/
+*.vscode/
+*.project
+
+# Operating System specific
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+# Thumbnails
+._*
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.Trash-*
