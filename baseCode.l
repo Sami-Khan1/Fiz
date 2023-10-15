@@ -47,8 +47,8 @@ unary "++"|"--"
 .	                        { return *yytext; }
 ["].*["]                    { return STR; }
 ['].[']                     { return CHARACTER; }
-"dot"                         { return DOTPROD;}
-"cross"                         { return CROSSPROD;}
+"dot"                       { return DOTPROD;}
+"cross"                     { return CROSSPROD;}
 "derivative"                { return DERIV;}
 "integral"                  { return INTEG;}
 "matrix"                    { return MATRIX;}
