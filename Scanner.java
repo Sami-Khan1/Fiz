@@ -100,7 +100,7 @@ class Scanner {
             } else if(isAlpha(c)) {
                 identifier();
             } else {
-                Lox.error(line, "Unexpected character, fat fingered dingus");
+                Fiz.error(line, "Unexpected character, fat fingered dingus");
             }
             break;
         }
@@ -113,7 +113,7 @@ class Scanner {
         }
         
         if(isAtEnd()) {
-            Lox.error(line, "Unterminated string, write better code dipshit.");
+            Fiz.error(line, "Unterminated string, write better code dipshit.");
             return;
         }
 

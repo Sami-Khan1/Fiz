@@ -1,4 +1,7 @@
 package com.craftinginterpreters.lox;
+import com.craftinginterpreters.lox.Scanner;
+import com.craftinginterpreters.lox.Token;
+import com.craftinginterpreters.lox.TokenType;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -31,9 +34,7 @@ public class Fiz {
         for (;;) { 
             System.out.print("> ");
             String line = reader.readLine();
-            if (line == null) {
-                break;
-            }
+            if (line == null) break;
             run(line);
         }
     }
